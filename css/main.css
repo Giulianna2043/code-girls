@@ -17,28 +17,47 @@ body{
 .menu h1
 {
     color: black;
-} 
-header 
-{
-    background: url(../img/home.jpg)no-repeat;
+}
+/*--------------------------------------header---------------------------------------*/
+header{
+    background-color: #f8f8f8;
+}
+header h2, a{
+    color: #b1a79e;
+}
+header .navbar{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/*--------------------------------------sectionh hero---------------------------------------*/
+#hero{
+    background-image: url(../img/home.jpg);
     background-size: cover;
-    
+    height: 450px;
+    text-align: center;
+    color: white;
+    width: 100%;
 }
-ul li a
-{
-    font-size: 20px;
-    float: right;
-    padding-right: 3%;
-    
+h1{
+  margin-top: 180px;  
 }
-ul li a:hover
-{
-    transition-duration: all 2s;
+p{
+    color: black;
 }
-.container .frase 
-{
- padding: 15%;   
+#hero button, #hackathon button, #formulario button{
+    border-radius: 5%;
+    border: 1px solid #337ab7;
+    background-color: #337ab7;
+    padding: 0.7%;
+    width:100px;
+    font-size: 100%;
 }
+#hero button:hover{
+   background-color: deepskyblue;
+}
+
+
 .amarillo
 {
     background: yellow;
