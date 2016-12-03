@@ -1,0 +1,87 @@
+*{
+    outline: 1px solid pink;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: sans-serif;    
+}
+.text-center h1
+{
+    color: white;
+}
+.container-fluid
+{
+    background: #d8d8c8;  
+}
+.menu h1
+{
+    color: black;
+} 
+header 
+{
+    background: url(../img/home.jpg)no-repeat;
+    background-size: cover;
+    
+}
+ul li a
+{
+    font-size: 20px;
+    float: right;
+    padding-right: 3%;
+    
+}
+ul li a:hover
+{
+    transition-duration: all 2s;
+}
+.container .frase 
+{
+ padding: 15%;   
+}
+.amarillo
+{
+    background: yellow;
+    padding: 3%;
+    margin: 2%;
+}
+footer
+{
+    background: cadetblue;
+    color: white;
+    padding:10px
+}
+footer spam
+{
+    color: yellow;
+}
+
+@media screen and (min-width:768px) and (max-width:992px)
+{
+    #hackathon {padding: 30px;}
+   
+}
+@media screen and (max-width:768px)
+{
+    .navbar ul li:hover{background-color:#337ab7;}
+    header a{color: white;}
+    .navbar-brand{color: #b1a79e;}
+    #hackathon {padding: 20px 0;}
+}
+@media screen and (max-width:630px){
+    .hidden-xs
+    {
+      display: none;
+        
+    }
+    .container-fluid i
+    {
+        display: inline-block;
+        float: right;
+        color: white;
+        font-size: 50px;
+        
+    }
+    
+}
+    
