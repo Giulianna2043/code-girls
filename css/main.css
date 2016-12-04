@@ -1,6 +1,4 @@
-*{
-    outline: 1px solid pink;
-}
+
 body{
     margin: 0;
     padding: 0;
@@ -43,7 +41,6 @@ nav li a:hover, nav li a:focus{
     outline: none;
     background: #FFF;
 }
-
 #main-navigation
 {
     z-index: 1;
